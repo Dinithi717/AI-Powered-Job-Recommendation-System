@@ -1,0 +1,117 @@
+{
+    "model_name": "LightGBM Classifier",
+    "timestamp": "2025-10-22 19:41:39",
+    "hyperparameter_tuning": [
+        {
+            "iteration": 1,
+            "best_params": {
+                "learning_rate": 0.1,
+                "max_depth": -1,
+                "n_estimators": 200,
+                "num_leaves": 31,
+                "subsample": 0.8
+            },
+            "best_score": 0.832024591534114,
+            "time_taken": 3181.8024487495422
+        },
+        {
+            "iteration": 2,
+            "best_params": {
+                "learning_rate": 0.1,
+                "max_depth": -1,
+                "n_estimators": 150,
+                "num_leaves": 40,
+                "subsample": 0.85
+            },
+            "best_score": 0.832024591534114,
+            "time_taken": 6046.309351205826
+        },
+        {
+            "iteration": 3,
+            "best_params": {
+                "colsample_bytree": 0.8,
+                "learning_rate": 0.1,
+                "max_depth": -1,
+                "n_estimators": 200,
+                "num_leaves": 50,
+                "subsample": 0.9
+            },
+            "best_score": 0.8339791369096872,
+            "time_taken": 2444.5034868717194
+        }
+    ],
+    "best_parameters": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.1,
+        "max_depth": -1,
+        "n_estimators": 200,
+        "num_leaves": 50,
+        "subsample": 0.9
+    },
+    "cross_validation": {
+        "cv_scores": [
+            0.8377397260273971,
+            0.8253199658703071,
+            0.8311855670103092,
+            0.8253199658703071,
+            0.8503304597701149
+        ],
+        "mean_cv_score": 0.8339791369096872,
+        "std_cv_score": 0.009373092432696614
+    },
+    "train_metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+    },
+    "test_metrics": {
+        "accuracy": 0.88,
+        "precision": 0.7914248704663213,
+        "recall": 0.88,
+        "f1_score": 0.8321872146118722
+    },
+    "training_time": 6.798256158828735,
+    "feature_importance_top10": [
+        {
+            "feature": "job_title_char_count_scaled",
+            "importance": 6062
+        },
+        {
+            "feature": "tfidf_component_4",
+            "importance": 4850
+        },
+        {
+            "feature": "tfidf_component_3",
+            "importance": 4165
+        },
+        {
+            "feature": "tfidf_component_10",
+            "importance": 3149
+        },
+        {
+            "feature": "tfidf_component_6",
+            "importance": 3098
+        },
+        {
+            "feature": "tfidf_component_11",
+            "importance": 2813
+        },
+        {
+            "feature": "tfidf_component_5",
+            "importance": 2812
+        },
+        {
+            "feature": "tfidf_component_14",
+            "importance": 2632
+        },
+        {
+            "feature": "tfidf_component_12",
+            "importance": 2539
+        },
+        {
+            "feature": "tfidf_component_0",
+            "importance": 2431
+        }
+    ]
+}

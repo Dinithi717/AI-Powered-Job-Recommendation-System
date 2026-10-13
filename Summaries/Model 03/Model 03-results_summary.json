@@ -1,0 +1,122 @@
+{
+    "model_name": "Random Forest Classifier",
+    "timestamp": "2025-10-22 18:20:16",
+    "hyperparameter_tuning": [
+        {
+            "iteration": 1,
+            "best_params": {
+                "max_depth": 20,
+                "max_features": "sqrt",
+                "min_samples_leaf": 1,
+                "min_samples_split": 2,
+                "n_estimators": 200
+            },
+            "best_score": 0.8245502630829797,
+            "time_taken": 184.5651135444641
+        },
+        {
+            "iteration": 2,
+            "best_params": {
+                "max_depth": 20,
+                "max_features": "sqrt",
+                "min_samples_leaf": 1,
+                "min_samples_split": 3,
+                "n_estimators": 200
+            },
+            "best_score": 0.8238087666488558,
+            "time_taken": 286.7916383743286
+        },
+        {
+            "iteration": 3,
+            "best_params": {
+                "bootstrap": false,
+                "max_depth": 18,
+                "max_features": "sqrt",
+                "min_samples_leaf": 1,
+                "min_samples_split": 4,
+                "n_estimators": 250
+            },
+            "best_score": 0.8331470234548197,
+            "time_taken": 805.7991080284119
+        }
+    ],
+    "best_parameters": {
+        "bootstrap": false,
+        "max_depth": 18,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "min_samples_split": 4,
+        "n_estimators": 250
+    },
+    "cross_validation": {
+        "cv_scores": [
+            0.834957337883959,
+            0.8343321917808219,
+            0.8301041666666666,
+            0.8136016949152542,
+            0.8527397260273972
+        ],
+        "mean_cv_score": 0.8331470234548197,
+        "std_cv_score": 0.012488672479839926
+    },
+    "train_metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+    },
+    "test_metrics": {
+        "accuracy": 0.88,
+        "precision": 0.7919689119170985,
+        "recall": 0.88,
+        "f1_score": 0.8324748858447489
+    },
+    "training_time": 2.04117751121521,
+    "feature_importance_top10": [
+        {
+            "feature": "job_title_char_count_scaled",
+            "importance": 0.07232320676635624
+        },
+        {
+            "feature": "tfidf_component_4",
+            "importance": 0.06140750774394912
+        },
+        {
+            "feature": "tfidf_component_3",
+            "importance": 0.053422585169965696
+        },
+        {
+            "feature": "tfidf_component_12",
+            "importance": 0.046153751648010825
+        },
+        {
+            "feature": "tfidf_component_11",
+            "importance": 0.04380854327384497
+        },
+        {
+            "feature": "tfidf_component_14",
+            "importance": 0.043406299718307076
+        },
+        {
+            "feature": "tfidf_component_6",
+            "importance": 0.043122629132090785
+        },
+        {
+            "feature": "tfidf_component_18",
+            "importance": 0.04060675088974431
+        },
+        {
+            "feature": "tfidf_component_5",
+            "importance": 0.04041980829661888
+        },
+        {
+            "feature": "tfidf_component_10",
+            "importance": 0.03881962549866817
+        }
+    ],
+    "tree_statistics": {
+        "mean_depth": 16.448,
+        "max_depth": 18,
+        "min_depth": 12
+    }
+}

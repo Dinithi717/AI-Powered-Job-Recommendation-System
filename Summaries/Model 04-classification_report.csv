@@ -1,0 +1,32 @@
+,precision,recall,f1-score,support
+Assistant Manager,1.0,1.0,1.0,1.0
+Corporate Tax Manager,0.0,0.0,0.0,1.0
+Department Supervisor,0.0,0.0,0.0,1.0
+Dog Trainer,0.0,0.0,0.0,1.0
+First Year Tax Professional,1.0,1.0,1.0,1.0
+LEAD SALES ASSOCIATE-FT,0.0,0.0,0.0,1.0
+LEAD SALES ASSOCIATE-PT,0.0,0.0,0.0,1.0
+"Lead Customer Service Representative, Full or Part Time",0.0,0.0,0.0,1.0
+Leasing Consultant,0.0,0.0,0.0,1.0
+Maintenance Technician,0.0,0.0,0.0,1.0
+OPERATIONS ASSISTANT MANAGER,0.0,0.0,0.0,1.0
+Other,0.882051282051282,1.0,0.9373297002724795,172.0
+Product Demonstrator Part Time,0.0,0.0,0.0,1.0
+Property Manager,0.0,0.0,0.0,1.0
+Quality Manager,0.0,0.0,0.0,1.0
+Radiology Technologist,0.0,0.0,0.0,1.0
+Registered Nurse,0.0,0.0,0.0,1.0
+Restaurant General Manager,0.0,0.0,0.0,1.0
+Shift Leader,0.0,0.0,0.0,1.0
+Shift Manager,1.0,0.5,0.6666666666666666,2.0
+Staff Nurse,0.0,0.0,0.0,1.0
+Store Manager,0.0,0.0,0.0,1.0
+To Go Specialist,0.0,0.0,0.0,1.0
+Travel Allied Health Professional - CT Technologist,0.0,0.0,0.0,1.0
+Travel Allied Health Professional - Cath Lab Technologist,0.0,0.0,0.0,1.0
+Travel Center General Manager,0.0,0.0,0.0,1.0
+Ultrasound Technologist,0.0,0.0,0.0,1.0
+Veterinarian,1.0,1.0,1.0,1.0
+accuracy,0.88,0.88,0.88,0.88
+macro avg,0.17435897435897438,0.16071428571428573,0.16442844167639808,200.0
+weighted avg,0.7835641025641026,0.88,0.8277702089009991,200.0
