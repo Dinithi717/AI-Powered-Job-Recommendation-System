@@ -1,0 +1,16 @@
+feature,VIF
+search_country_encoded,999.0
+job_level_encoded,999.0
+job_type_onsite,999.0
+skills_word_count_scaled,999.0
+search_country_encoded_scaled,999.0
+skills_tokens_count_scaled,999.0
+job_level_encoded_scaled,999.0
+skills_char_count_scaled,96.12739506517302
+title_tokens_count_scaled,11.589234722459716
+job_title_word_count_scaled,9.877755637537403
+skills_list_count_scaled,9.873202535066163
+job_title_char_count_scaled,9.01968808181441
+has_skill_communication,1.5218553246103705
+has_skill_teamwork,1.2860695614104647
+has_skill_customer_service,1.2344328486374705

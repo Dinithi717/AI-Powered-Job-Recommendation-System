@@ -1,0 +1,38 @@
+[
+    {
+        "iteration": 1,
+        "best_params": {
+            "learning_rate": 0.07,
+            "l2_leaf_reg": 1,
+            "iterations": 150,
+            "depth": 4
+        },
+        "best_score": 0.8211487815913913,
+        "time_taken_sec": 219.07
+    },
+    {
+        "iteration": 2,
+        "best_params": {
+            "learning_rate": 0.15,
+            "l2_leaf_reg": 2,
+            "iterations": 250,
+            "depth": 5,
+            "border_count": 64
+        },
+        "best_score": 0.8308736626594498,
+        "time_taken_sec": 302.09
+    },
+    {
+        "iteration": 3,
+        "best_params": {
+            "learning_rate": 0.12,
+            "l2_leaf_reg": 3,
+            "iterations": 300,
+            "depth": 6,
+            "border_count": 64,
+            "bagging_temperature": 1
+        },
+        "best_score": 0.8263094412718243,
+        "time_taken_sec": 433.48
+    }
+]

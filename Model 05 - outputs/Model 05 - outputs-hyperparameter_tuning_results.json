@@ -1,0 +1,46 @@
+[
+    {
+        "iteration": 1,
+        "best_params": {
+            "activation": "tanh",
+            "alpha": 0.0001,
+            "hidden_layer_sizes": [
+                128
+            ],
+            "learning_rate": "constant"
+        },
+        "best_score": 0.8099961989946058,
+        "time_taken": 37.58960556983948
+    },
+    {
+        "iteration": 2,
+        "best_params": {
+            "activation": "relu",
+            "alpha": 0.0005,
+            "hidden_layer_sizes": [
+                128
+            ],
+            "learning_rate": "adaptive",
+            "max_iter": 500
+        },
+        "best_score": 0.8001917873732515,
+        "time_taken": 12.378718137741089
+    },
+    {
+        "iteration": 3,
+        "best_params": {
+            "activation": "relu",
+            "alpha": 0.001,
+            "batch_size": "auto",
+            "hidden_layer_sizes": [
+                128,
+                64,
+                32
+            ],
+            "learning_rate": "adaptive",
+            "max_iter": 1000
+        },
+        "best_score": 0.7987394567386177,
+        "time_taken": 4.82482385635376
+    }
+]

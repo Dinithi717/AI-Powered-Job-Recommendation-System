@@ -1,0 +1,36 @@
+[
+    {
+        "iteration": 1,
+        "best_params": {
+            "C": 10,
+            "max_iter": 1000,
+            "penalty": "l2",
+            "solver": "saga"
+        },
+        "best_score": 0.8273506457074037,
+        "time_taken": 143.8087854385376
+    },
+    {
+        "iteration": 2,
+        "best_params": {
+            "C": 5,
+            "max_iter": 1000,
+            "penalty": "l2",
+            "solver": "lbfgs"
+        },
+        "best_score": 0.8233967143094573,
+        "time_taken": 90.7621955871582
+    },
+    {
+        "iteration": 3,
+        "best_params": {
+            "C": 0.3,
+            "class_weight": null,
+            "max_iter": 2000,
+            "penalty": "l2",
+            "solver": "lbfgs"
+        },
+        "best_score": 0.818845168120134,
+        "time_taken": 3.5079596042633057
+    }
+]
